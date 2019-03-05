@@ -1,0 +1,25 @@
+.last-item {
+  border-top: 1px solid #8c8c8c;
+  padding-bottom: 15px;
+}
+
+.table-list-item {
+  width: 100%;
+  tr {
+    td {
+      padding: 0 4px;
+      &.no1 {
+        width: 35%;
+      }
+      &.no2 {
+        width: 35%;
+      }
+      &.no3 {
+        width: 15%;
+      }
+      &.no4 {
+        width: 15%;
+      }
+    }
+  }
+}
